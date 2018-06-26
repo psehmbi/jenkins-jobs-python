@@ -4,7 +4,7 @@ from time import time
 
 query_string = {'tree': 'jobs[name]'
                 }
-url = ('http://build.esendex.com/view/Jobs/view/All/api/json')
+url = ('jenkins url')
 
 job_names = requests.get(url, params=query_string)  # , headers=headers)
 
